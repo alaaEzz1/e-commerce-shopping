@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:e_commerce_shopping/layers/presentation/screens/home/home_screen.dart';
 import 'package:e_commerce_shopping/layers/presentation/screens/splash_screens/on_boarding%20_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -21,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
     Timer(
       Duration(seconds: 3),
-        ()=> Navigator.push(context, MaterialPageRoute(builder: (context) => OnBoardingScreen()))
+        ()=> Navigator.push(context, MaterialPageRoute(builder: (context) => const OnBoardingScreen()))
     );
 
   }
