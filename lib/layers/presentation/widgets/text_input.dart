@@ -16,7 +16,7 @@ Widget StylishEditText({
         hintStyle: const TextStyle(
           color: Colors.redAccent,
         ),
-        floatingLabelStyle: TextStyle(
+        floatingLabelStyle: const TextStyle(
           backgroundColor: Colors.grey
         ),
         focusedBorder: OutlineInputBorder(
