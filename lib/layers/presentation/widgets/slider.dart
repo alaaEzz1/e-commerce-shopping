@@ -10,11 +10,19 @@ Widget AutoImageSlider({
       items: items,
       options: CarouselOptions(
         height: 400,
+        enlargeCenterPage: true,
+        disableCenter: true,
+        enlargeFactor:  0.4,
         animateToClosest: true,
+        pageSnapping: true,
+        autoPlayInterval: const Duration(
+          seconds: 5,
+        ),
         autoPlayAnimationDuration: const Duration(
-          seconds: 60,
+          seconds: 1,
         ),
         autoPlay: true,
+        autoPlayCurve: Curves.decelerate,
       ),
       carouselController: CarouselController(),
     ),

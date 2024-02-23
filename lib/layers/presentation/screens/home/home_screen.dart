@@ -30,14 +30,17 @@ class _HomeScreenState extends State<HomeScreen> {
                 Image.network(
                   'https://i.pinimg.com/564x/c4/3f/45/c43f4514ba7b37853d2ffb5f8dfb39e4.jpg',
                   height: 400,
+                  fit: BoxFit.fill,
                 ),
                 Image.network(
                   'https://i.pinimg.com/564x/3c/57/46/3c57461024262176d2572dc015e5d6b7.jpg',
                   height: 400,
+                  fit: BoxFit.fill,
                 ),
                 Image.network(
                   'https://i.pinimg.com/736x/cb/0b/3a/cb0b3adc402b80f860fae425a3a7571e.jpg',
                   height: 400,
+                  fit: BoxFit.fill,
                 ),
               ],
             ),
